@@ -23,6 +23,10 @@ body {
 	margin-bottom: 4px;
 }
 
+#items > .item:hover {
+	text-decoration: underline;
+}
+
 #items > *[data-matched=false] {
 	display: none;
 }

@@ -19,6 +19,7 @@ function initItems(items)
 	items.forEach((itm, idx) => {
 		let el = document.createElement('div')
 		el.setAttribute('tabindex', '2')
+		el.className = 'item'
 		el.textContent = itm.name
 		el.dataset.name = itm.name
 		el.addEventListener('keydown', ev => {
